@@ -1,10 +1,10 @@
 import React, { useCallback, useEffect, useState } from 'react';
 import { XMarkIcon } from '@heroicons/react/24/outline';
 
-import PlayButton from '@/components/PlayButton';
-import FavoriteButton from '@/components/FavoriteButton';
-import useInfoModalStore from '@/hooks/useInfoModalStore';
-import useMovie from '@/hooks/useMovie';
+import PlayButton from './PlayButton';
+import FavoriteButton from './FavoriteButton';
+import useInfoModalStore from '../hooks/useInfoModalStore';
+import useMovie from '../hooks/useMovie';
 
 interface InfoModalProps {
   visible?: boolean;
